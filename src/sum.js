@@ -1,5 +1,5 @@
 'use strict';
-
+/* eslint-disable */
 /**
  * Implement sum function:
  *
@@ -16,7 +16,9 @@
  * @return {function}
  */
 function sum(a) {
-  // write code here
+  return (b) => {
+      return a + b;
+  }
 }
 
 module.exports = sum;
